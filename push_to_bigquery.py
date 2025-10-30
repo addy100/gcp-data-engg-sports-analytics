@@ -5,7 +5,7 @@ import os
 
 # Load environment variables from .env file
 load_dotenv()
-PROJECT_ID = os.getenv('GCP_PROJECT_ID')
+PROJECT_ID = os.getenv('GCP_PROJECT_ID') # Here the user need to provide the GCP ID
 DATASET_ID = "epl_analytics" # The name of your BigQuery dataset
 
 functions = [league_table, top_scorers] # Add other functions here
