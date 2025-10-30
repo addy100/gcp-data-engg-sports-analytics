@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from pandas_gbq import read_gbq
 from dotenv import load_dotenv
-import google.generativeai as genai
+import google.generativeai as genai #
 
 # --- Configuration ---
 load_dotenv()
@@ -49,6 +49,7 @@ def generate_epl_summary():
     3.  Mention one or two interesting details from the table (e.g., a team that is surprisingly high or low).
     4.  Name the current top goal scorer and their number of goals.
     5.  Maintain a professional and engaging tone.
+    6.  Keep the tone professional and ethical which should not hurt someone's sentiments.
 
     Here is the data:
 
