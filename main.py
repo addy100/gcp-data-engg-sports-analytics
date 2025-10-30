@@ -11,3 +11,5 @@ print("\nRunning AI summary script...")
 os.system('python generate_summary.py')
 
 print("\n--- Pipeline Execution Finished ---")
+
+print("Working Well!")
